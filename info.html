@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./normalize.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <title>Balkar Singh Dhaliwal</title>
+</head>
+
+<body class="navigation">
+  <nav class="navbar">
+    <div class="logo">
+      <a href="honesty.html">
+        Final Assessment
+      </a>
+    </div>
+    <ul class="nav-links">
+      <div class="menu">
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="info.html">Info</a></li>
+      </div>
+    </ul>
+  </nav>
+
+  <div class="form-content">
+    <div class="container">
+      <div class="header">
+        <h2>CREATE ACCOUNT</h2>
+      </div>
+      <form class="signUp" id="signUp" method="post" action="https://httpbin.org/post">
+        <div class="form-control">
+          <input type="text" autofocus placeholder="First Name" id="firstName" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" placeholder="Last Name" id="lastName" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" placeholder="Username" id="username" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" placeholder="Age" id="age" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control email">
+          <input type="text" placeholder="Email" id="email" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="password" placeholder="Password" id="password" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="password" placeholder="Confirm Password" id="passwordCheck" />
+          <i class="material-icons check_circle"> check_circle </i>
+          <i class="material-icons error_icon"> error </i>
+          <small></small>
+        </div>
+        <input class="submit" type="submit" value="Submit">
+        <input class="reset" type="reset" value="Reset">
+        <!--Hidden values-->
+
+        <input type="hidden" name="lastName" id="lastName" value="Dhaliwal" />
+        <input type="hidden" name="studentId" id="studentId" value="153671201" />
+      </form>
+    </div>
+</body>
+<script src="./info.js"></script>
+
+</html>
